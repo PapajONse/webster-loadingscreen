@@ -2,7 +2,7 @@
 
 Simpel loadingscreen med en baggrund og en progressbar med fade. 
 
-Kontakt mig på discord hvis du har nogle spørgsmpl! 
+Kontakt mig på discord hvis du har nogle spørgsmål! 
 
 Discord: weberdavinci
 
