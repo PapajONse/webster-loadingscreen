@@ -1,0 +1,89 @@
+/* Need Help? Join my discord @ discord.gg/yWddFpQ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--fadeTo-Color);
+}
+
+.blur {
+    -webkit-filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+    filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+}
+
+.logo {
+    width: 320px;
+    margin-bottom: 2%;
+    position: relative;
+    left: -5;
+}
+
+.loadbar {
+    border-radius: 25px;
+    width: 98%;
+    height: var(--loadbar-height);
+    box-shadow: 0px 8px 10px 0px rgba(48, 100, 255, 0.627), 0 6px 12px 0 rgba(8, 185, 255, 0.463);
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: relative;
+  
+    text-align: center;
+    display: block;
+}
+
+.yeet {
+    width: 10%;
+    border-radius: 25px;
+    background-color: #23a1f0c2;
+    height: var(--loadbar-height);
+
+    position: absolute;
+    left: 10%;
+}
+
+#container {
+    text-shadow: 2px 2px 5px #2079ff;
+    position: absolute;
+    color: rgb(13, 123, 182);
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+}
+
+#bg { 
+  -webkit-background-size: cover;
+  background-size: cover;
+   }
+
+#link {
+    color: var(--footer-font-color);
+    position: fixed;
+    left: 0;
+    font-size: var(--footer-font-size);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 29px;
+}
+
+#bottom_nav {
+    width: 90%;
+    vertical-align: text-bottom;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    z-index:9999;
+}
